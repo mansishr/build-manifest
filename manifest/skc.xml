@@ -1,5 +1,7 @@
 <manifest>
     <remote name="github.com" fetch="https://github.com/intel-secl/" />
+    <remote name="forkforopenfl" fetch="https://github.com/mansishr/utils.git" />
+
     <default revision="refs/tags/v3.6.1" />
 
     <project name="intel-secl" path="intel-secl" remote="github.com" />
@@ -16,7 +18,7 @@
 
     <project name="k8s-extensions" path="k8s-extensions" remote="github.com" />
 
-    <project name="utils" path="utils" remote="github.com" revision="v3.6.1/develop">
+    <project name="utils" path="utils" remote="forkforopenfl" revision="isecl_v3.6.1_for_openfl">
         <copyfile src="build/skc-tools/skc" dest="Makefile" />
     </project>
 
