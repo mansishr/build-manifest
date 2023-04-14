@@ -1,13 +1,13 @@
 <manifest>
-    <remote name="github.com" fetch="https://github.com/intel-secl/" />
+    <remote name="github.com" fetch="https://github.com/mansishr" />
 
     <default revision="refs/tags/v3.6.1" />
 
-    <project name="intel-secl" path="intel-secl" remote="github.com" revision="release/v3.6.1"/>
+    <project name="intel-secl" path="intel-secl" remote="github.com" revision="isecl_v3.6.1_for_openfl"/>
 
-    <project name="sgx-caching-service" path="sgx-caching-service" remote="github.com" revision="release/v3.6.1"/>
+    <project name="sgx-caching-service" path="sgx-caching-service" remote="github.com" revision="isecl_v3.6.1_for_openfl"/>
 
-    <project name="sgx-verification-service" path="sgx-verification-service" remote="github.com" revision="release/v3.6.1"/>
+    <project name="sgx-verification-service" path="sgx-verification-service" remote="github.com" revision="isecl_v3.6.1_for_openfl"/>
 
     <project name="sgx-hvs" path="sgx-hvs" remote="github.com" />
 
@@ -17,10 +17,10 @@
 
     <project name="k8s-extensions" path="k8s-extensions" remote="github.com" />
 
-    <project name="utils" path="utils" remote="github.com" revision="release/v3.6.1">
+    <project name="utils" path="utils" remote="github.com" revision="isecl_v3.6.1_for_openfl">
         <copyfile src="build/skc-tools/skc" dest="Makefile" />
     </project>
 
-    <project name="build-manifest" remote="github.com" path="build-manifest" revision="release/v3.6.1"/>
+    <project name="build-manifest" remote="github.com" path="build-manifest" revision="isecl_v3.6.1_for_openfl"/>
 
 </manifest>
