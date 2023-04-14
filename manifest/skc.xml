@@ -9,13 +9,13 @@
 
     <project name="sgx-verification-service" path="sgx-verification-service" remote="github.com" revision="isecl_v3.6.1_for_openfl"/>
 
-    <project name="sgx-hvs" path="sgx-hvs" remote="github.com" />
+    <project name="sgx-hvs" path="sgx-hvs" remote="github.com" revision="isecl_v3.6.1_for_openfl"/>
 
-    <project name="sgx_agent" path="sgx_agent" remote="github.com" />
+    <project name="sgx_agent" path="sgx_agent" remote="github.com" revision="isecl_v3.6.1_for_openfl"/>
 
-    <project name="skc_library" path="skc_library" remote="github.com" />
+    <project name="skc_library" path="skc_library" remote="github.com" revision="isecl_v3.6.1_for_openfl"/>
 
-    <project name="k8s-extensions" path="k8s-extensions" remote="github.com" />
+    <project name="k8s-extensions" path="k8s-extensions" remote="github.com" revision="isecl_v3.6.1_for_openfl"/>
 
     <project name="utils" path="utils" remote="github.com" revision="isecl_v3.6.1_for_openfl">
         <copyfile src="build/skc-tools/skc" dest="Makefile" />
