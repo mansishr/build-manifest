@@ -3,11 +3,11 @@
 
     <default revision="refs/tags/v3.6.1" />
 
-    <project name="intel-secl" path="intel-secl" remote="github.com" revision="release/v3.6.1"/>
+    <project name="intel-secl" path="intel-secl" remote="github.com" revision="openfl-security-1.0"/>
 
-    <project name="sgx-caching-service" path="sgx-caching-service" remote="github.com" revision="release/v3.6.1"/>
+    <project name="sgx-caching-service" path="sgx-caching-service" remote="github.com" revision="openfl-security-1.0"/>
 
-    <project name="sgx-verification-service" path="sgx-verification-service" remote="github.com" revision="release/v3.6.1"/>
+    <project name="sgx-verification-service" path="sgx-verification-service" remote="github.com" revision="openfl-security-1.0"/>
 
     <project name="sgx-hvs" path="sgx-hvs" remote="github.com" />
 
@@ -17,10 +17,10 @@
 
     <project name="k8s-extensions" path="k8s-extensions" remote="github.com" />
 
-    <project name="utils" path="utils" remote="github.com" revision="release/v3.6.1">
+    <project name="utils" path="utils" remote="github.com" revision="openfl-security-1.0">
         <copyfile src="build/skc-tools/skc" dest="Makefile" />
     </project>
 
-    <project name="build-manifest" remote="github.com" path="build-manifest" revision="release/v3.6.1"/>
+    <project name="build-manifest" remote="github.com" path="build-manifest" revision="openfl-security-1.0"/>
 
 </manifest>
